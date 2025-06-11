@@ -1,0 +1,7 @@
+{
+  "name": "valor-technical-test",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "pnpm --filter=./remote build && pnpm --filter=./host build"
+  }
+}
