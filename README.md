@@ -1,20 +1,20 @@
-# Module Federation
+# Valor Technical Test
+
+## Technologies
+
+- Webpack
+- Module Federation
+- Zephyr
+- React
 
 ## How to use
 
 Run the following commands in the root directory.
 
 ```bash
-yarn
-yarn start
+pnpm run build
 ```
-Both `app1` and `app2` are independently deployed apps:
 
-- `app1`: http://localhost:3001
-- `app2`: http://localhost:3002
+Both `host` and `remote` are independently deployed apps, you can check the live demo here: [Live demo](https://daniel-de-sousa-26-host-valor-technical-test-dann-833232647-ze.zephyrcloud.app/)
 
-To be able to use this example, build app2. Then find it in https://app.zephyr-cloud.io and set link to 'remoteEntry.js' file. Link should be set in variable app2Url (/app1/src/index.js).
-
-Check out this link below for more examples:
-
-[https://github.com/module-federation/module-federation-examples](https://github.com/module-federation/module-federation-examples)
+To be able to use this example, build remote app first. Then find it in https://app.zephyr-cloud.io and set link to 'remoteEntry.js' file. Link should be set in variable remoteUrl (/host/src/index.js).
