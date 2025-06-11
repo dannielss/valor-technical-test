@@ -30,7 +30,7 @@ module.exports = withZephyr()({
     new ModuleFederationPlugin({
       name: "host",
       remotes: {
-        "remote-app": "remote-app@[remoteUrl]/remoteEntry.js",
+        remote: "remote@[remoteUrl]/remoteEntry.js",
       },
       shared: { react: { singleton: true }, "react-dom": { singleton: true } },
     }),

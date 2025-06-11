@@ -8,7 +8,7 @@
     "build": "webpack --mode production"
   },
   "zephyr:dependencies": {
-    "remote-app": "zephyr:remote-app@*"
+    "remote": "zephyr:remote@*"
   },
   "dependencies": {
     "external-remotes-plugin": "^1.0.0",
